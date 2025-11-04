@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .wood-bg {
+    background-image: url('/img/Boards & Platters.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+html, body, #root {
+  height: 100%;
+}
